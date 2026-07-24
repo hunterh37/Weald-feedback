@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest an improvement or a new capability.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Weald to do
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters
+      description: What are you trying to accomplish today, and where does Weald get in the way?
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      description: Auto-filled when submitted from inside Weald.
+      render: text

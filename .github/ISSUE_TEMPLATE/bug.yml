@@ -1,0 +1,25 @@
+name: Bug report
+description: Something in Weald is broken or behaving unexpectedly.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What went wrong, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      description: Auto-filled when submitted from inside Weald.
+      render: text
